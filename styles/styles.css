@@ -1,10 +1,30 @@
-*,*::after,*::before{
+*, *::after, *::before {
     box-sizing: border-box;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-a .logo{
-    background-image: url("../assets/img/Logo.png");
+.logoAndButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 320px;
+    height: auto;
+}
+
+nav {}
+
+nav ul {}
+
+nav ul li {
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
 }
