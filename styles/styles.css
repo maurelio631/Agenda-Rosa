@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+body{
+    height: 100vh;
+}
+
 .logoAndButtons {
     display: flex;
     justify-content: space-around;
@@ -16,15 +20,24 @@
     height: auto;
 }
 
-nav {}
+nav {
 
-nav ul {}
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
 
 nav ul li {
-    
+    margin: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+}
+
+footer{
+    bottom: 0px;
 }
